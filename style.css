@@ -2,47 +2,93 @@
     margin: 0px;
     padding: 0px;
 }
-
+/* banner section start */
 .banner-photo{
-    width: 635px;
-    height: 700px;
+    width:635px;
+    height:700px;
     padding-right:100px;
 }
 .banner-container{
     width: 1920px;
     height: 850px;
     background: rgba(229, 84, 115, 0.10);
-    display: flex;
+    display:flex;
  background-size: contain;
 }
 .banner-title{
 color: #272727;
 font-family: Lato;
-font-size: 80px;
-font-weight: 800;
-padding: 130px;
-width: 708px;
+font-size:80px;
+font-weight:800;
+padding:130px;
+width:708px;
 
 
 }
 .banner-description{
 color: rgba(39, 39, 39, 0.60);
 font-family: Lato;
-font-size: 18px;
-line-height: 30px;
-width: 634px;
-padding-left: 120px;
+font-size:18px;
+line-height:30px;
+width:634px;
+padding-left:120px;
 
 
 }
 .btn{
-    display: inline-flex;
-    padding: 20px 43px;
-    align-items: flex-start;
+    display:inline-flex;
+    padding:20px 43px;
+    align-items:flex-start;
     gap: 10px;
-    border-radius: 8px;
+    border-radius:8px;
    border-collapse:none;
     background: #E55473;
     color: white;
     
 }
+
+
+/* featured section start */
+.featured-section{
+height:100vh ;
+}
+
+.featured-title{
+    padding-top: 150px;
+    color: #272727;
+    text-align:center;
+    font-family:Lato;
+    font-size:40px;
+    font-weight:800;
+    
+}
+
+.featured-description{
+    color: rgba(39, 39, 39, 0.60);
+    padding-top:15px;
+    text-align:center;
+    font-family:Lato;
+    font-size: 18px;
+    font-weight:400;
+    line-height:30px;
+}.flower-section{
+    display:flex;
+   justify-content: space-evenly;
+   
+}
+.flower-name{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    list-style:none;
+    font-size: 24px;
+    line-height: 35px;
+    text-decoration-line:underline;
+    color: #272727;
+}
+.left-pic,.middle-pic{
+padding-right: 110px;
+}
+
+
+/* Deal section start */
