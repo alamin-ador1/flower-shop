@@ -9,18 +9,20 @@
     padding-right:100px;
 }
 .banner-container{
-    width: 1920px;
-    height: 850px;
+    width:1920px;
+    height:850px;
     background: rgba(229, 84, 115, 0.10);
     display:flex;
- background-size: contain;
+    justify-content: space-between;
+    align-items: center;
+ /* background-size: contain; */
 }
 .banner-title{
 color: #272727;
 font-family: Lato;
 font-size:80px;
 font-weight:800;
-padding:130px;
+padding: 130px 130px 40px 130px;
 width:708px;
 
 
@@ -31,21 +33,21 @@ font-family: Lato;
 font-size:18px;
 line-height:30px;
 width:634px;
-padding-left:120px;
-padding-bottom: 200px;
+padding-left:125px;
+padding-bottom: 20px;
+
 
 
 }
 .btn{
-    padding:20px 43px;
+    padding: 20px 43px;
     gap: 10px;
+    border: none; 
     border-radius:8px;
-    border-collapse:none;
     background: #E55473;
     color: white;
     
-    
-}
+ }
 
 
 /* featured section start */
@@ -136,12 +138,13 @@ padding-top: 10px;
 }
 .btn2{
 color: #FFF;
-font-family: Lato;
+
 font-size: 20px;
 gap: 10px;
 border-radius: 8px;
 background: #E55473;
 padding: 20px 43px;
+border: none;
 
    
 
@@ -180,3 +183,22 @@ margin:0px 200px;
 
 
 }
+
+/* latest deal section start */
+.latest-deal{
+width: 1900px;
+height: 700px;
+   
+
+}
+.deals-photo{
+    padding-left: 220px;
+    width: 1500px;
+height: 449px;
+}
+
+
+
+
+
+/* footer section */
