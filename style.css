@@ -32,18 +32,18 @@ font-size:18px;
 line-height:30px;
 width:634px;
 padding-left:120px;
+padding-bottom: 200px;
 
 
 }
 .btn{
-    display:inline-flex;
     padding:20px 43px;
-    align-items:flex-start;
     gap: 10px;
     border-radius:8px;
-   border-collapse:none;
+    border-collapse:none;
     background: #E55473;
     color: white;
+    
     
 }
 
@@ -94,11 +94,11 @@ padding-right: 110px;
 /* Deal section start */
 
 .deal-section{
-    width:1922px;
+    width:1920px;
     height:620px;
     background-color:#E554730D;
     display: flex;
-    margin-top:70px ;
+    margin-top:170px ;
 
 }
 .deal-content{
@@ -144,5 +144,39 @@ background: #E55473;
 padding: 20px 43px;
 
    
+
+}
+
+/* instagram section start */
+.instagram{
+width: 1900px;
+height: 700px;
+}
+.instagram-title{
+color: #272727;
+text-align: center;
+font-family: Lato;
+font-size: 40px;
+font-weight: 800;
+padding-top: 100px;
+
+}
+
+.instagram-description{
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+padding-top: 20px;
+}
+.instagram-flower{
+padding-top: 40px;
+display: flex;
+justify-content:space-evenly;
+align-items: center;
+margin:0px 200px;
+
 
 }
