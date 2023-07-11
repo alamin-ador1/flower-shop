@@ -106,12 +106,8 @@ height:620px;
 background-color:#E554730D;
 display: flex;
 margin-top:170px ;
-
 }
-.deal-content{
-   
 
-}
 
 .deal-title{
 color: #272727;
@@ -194,7 +190,8 @@ margin:0px 200px;
 /* latest deal section start */
 .latest-deal{
 width: 1600px;
-background-image: url("../Flower Asset/Rectangle\ 9.png");
+background-image: url("../Flower Asset/Rectangle 9.png");
+background-position-x: right;
 background-repeat: no-repeat;
 padding-bottom:200px;
 margin:70px ;
@@ -217,18 +214,20 @@ padding-top: 20px;
 .input{
 border-radius: 8px;
 background: #FFF;
-width: 500px;
-height: 50px;
+width:500px;
+height:65px;
 margin-left: 500px;
+border: none;
 }
 .btn3{
-height: 50px;
-color: #FFF;
-border-radius: 8px;
+ margin-left:18px;
+border: 30px;
+padding: 20px 43px;
+border-radius:8px;
 background: #E55473;
-font-size: 20px;
-border: none;
-padding:15px 20px 20px 20px ;
+color: white;
+font-size:20px;
+display: inline-flex;
 }
 .footer-content{
 width: 1922px;
@@ -248,7 +247,14 @@ padding-top:50px ;
  padding-top: 50px;
 }
 .footer-description{
-    padding-top:30px ;
+padding-top:25px ;
+color: rgba(255, 255, 255, 0.90);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+
 }
 .footer-bottom{
 color: rgba(255, 255, 255, 0.40);
